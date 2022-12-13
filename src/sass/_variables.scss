@@ -23,6 +23,10 @@ $spacers : map-merge($spacers, (
 $couleur-perso : (
     "orange" : rgb(207, 130, 22),
     "rose"   : #df46c8,
+    "cyan"   : hsl(171, 66%, 44%),
+    "blue"   : hsl(233, 100%, 69%)
+    "darkgray" :  hsl(201, 11%, 66%)
+    "bluegray" : hsl(201, 11%, 66%)
 );
 
 $theme-colors : map-merge($theme-colors , $couleur-perso);
