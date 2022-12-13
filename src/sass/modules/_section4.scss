@@ -1,0 +1,81 @@
+.section4 {
+    width: 100%;
+    padding: 10vh;
+    display: flex;
+    color: black;
+}
+
+.section4 .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.section4 .container h1 {
+    width: 50%;
+}
+.section4 .container p {
+    width: 42%;
+}
+
+.section4 .container a:first-of-type button {
+    background-color: $cyan;
+    border-bottom: solid $cyan;
+}
+
+.section4 .container a:last-of-type button {
+    background-color: $blue ;
+    border-bottom: solid  $blue;
+}
+p {
+    line-height: 25px;
+    color: $bluegray;
+}
+.bouton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 50%;
+    height: 20%;
+}
+button {
+    border: none;
+    font-size: 1rem;
+    border-radius: 40px;
+    color: white;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 70%;
+}
+
+a {
+    color: $darkgray;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 30px;
+    width: 100%;
+    margin: 4%;
+}
+
+a:hover {
+    color: $cyan;
+}
+
+@media screen and (max-width: 600px) {
+    
+    .bouton {
+        display: flex;
+        flex-direction: column;
+    }
+    .section4 .container h1 {
+        width: 100%;
+    }
+    .section4 .container p {
+        width: 100%;
+    }
+}

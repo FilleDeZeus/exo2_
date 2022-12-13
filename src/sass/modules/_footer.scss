@@ -1,0 +1,29 @@
+footer {
+    margin-top: 100px;
+    background-color: hsl(201deg, 11%, 97%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.cols{
+    display: flex;
+}
+footer .reseau a {
+    margin: 0 10px;
+}
+footer .reseau a div {
+    height: 25px;
+    width: 25px;
+}
+@media screen and (max-width: 600px) {
+    footer {
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
