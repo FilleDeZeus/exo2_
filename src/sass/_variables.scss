@@ -3,6 +3,12 @@
 
 //* Création de variable SASS
 $couleurRouge : #f71b09;
+$orange : rgb(207, 130, 22);
+$rose   : hsl(309, 71%, 57%);
+$cyan   : hsl(171, 66%, 44%);
+$blue   : hsl(233, 100%, 69%);
+$darkgray :  hsl(210, 10%, 33%);
+$bluegray : hsl(201, 11%, 66%);
 
 // BOOTSTRAP --------------------------------------------------------- //
 
@@ -22,10 +28,10 @@ $spacers : map-merge($spacers, (
 
 $couleur-perso : (
     "orange" : rgb(207, 130, 22),
-    "rose"   : #df46c8,
+    "rose"   : hsl(309, 71%, 57%),
     "cyan"   : hsl(171, 66%, 44%),
-    "blue"   : hsl(233, 100%, 69%)
-    "darkgray" :  hsl(201, 11%, 66%)
+    "blue"   : hsl(233, 100%, 69%),
+    "darkgray" :  hsl(210, 10%, 33%),
     "bluegray" : hsl(201, 11%, 66%)
 );
 
